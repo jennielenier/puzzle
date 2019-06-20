@@ -1,0 +1,639 @@
+{
+  "totalHits": 1661,
+  "products": [
+    {
+      "id": "4496447",
+      "name": "Samsung Galaxy S9 64GB",
+      "description": "Android, 5.8\", IP 68 Vattentät mobil, Lanseringsår 2018, 12 Megapixlar, 163g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4496447/Mobiltelefoner/Samsung-Galaxy-S9-64GB-priser",
+      "cheapestPrice": {
+        "amount": "5373.31",
+        "currency": "SEK"
+      },
+      "imageId": "1802434265",
+      "numberOfMerchants": 69,
+      "rank": 1,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 2119,
+        "averageRating": "4.6"
+      }
+    },
+    {
+      "id": "3816242",
+      "name": "Samsung Galaxy S8 64GB",
+      "description": "Android, 5.8\", IP 68 Vattentät mobil, Lanseringsår 2017, 12 Megapixlar, 155g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, VoLTE",
+      "url": "/pl/1-3816242/Mobiltelefoner/Samsung-Galaxy-S8-64GB-priser",
+      "cheapestPrice": {
+        "amount": "3999.00",
+        "currency": "SEK"
+      },
+      "imageId": "1653696315",
+      "numberOfMerchants": 70,
+      "rank": 2,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 10275,
+        "averageRating": "4.4"
+      }
+    },
+    {
+      "id": "3816379",
+      "name": "Apple iPhone 8 64GB",
+      "description": "Apple iOS, 4.7\", IP 67 Vattentålig mobil, Lanseringsår 2017, 12 Megapixlar, 148g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3816379/Mobiltelefoner/Apple-iPhone-8-64GB-priser",
+      "cheapestPrice": {
+        "amount": "6463.53",
+        "currency": "SEK"
+      },
+      "imageId": "1762103223",
+      "numberOfMerchants": 76,
+      "rank": 3,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 4512,
+        "averageRating": "4.7"
+      }
+    },
+    {
+      "id": "3847523",
+      "name": "Apple iPhone SE 32GB",
+      "description": "Apple iOS, 4\", Lanseringsår 2016, 12 Megapixlar, 113g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3847523/Mobiltelefoner/Apple-iPhone-SE-32GB-priser",
+      "cheapestPrice": {
+        "amount": "2290.00",
+        "currency": "SEK"
+      },
+      "imageId": "1660033633",
+      "numberOfMerchants": 40,
+      "rank": 4,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 12274,
+        "averageRating": "4.6"
+      }
+    },
+    {
+      "id": "4257585",
+      "name": "Apple iPhone X 64GB",
+      "description": "Apple iOS, 5.8\", IP 67 Vattentålig mobil, Lanseringsår 2017, 12 Megapixlar, 174g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, IR, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-4257585/Mobiltelefoner/Apple-iPhone-X-64GB-priser",
+      "cheapestPrice": {
+        "amount": "9179.00",
+        "currency": "SEK"
+      },
+      "imageId": "1726565546",
+      "numberOfMerchants": 67,
+      "rank": 5,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 4716,
+        "averageRating": "4.6"
+      }
+    },
+    {
+      "id": "3310055",
+      "name": "Apple iPhone 7 32GB",
+      "description": "Apple iOS, 4.7\", IP 67 Vattentålig mobil, Lanseringsår 2016, 12 Megapixlar, 138g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, DLNA, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3310055/Mobiltelefoner/Apple-iPhone-7-32GB-priser",
+      "cheapestPrice": {
+        "amount": "4399.00",
+        "currency": "SEK"
+      },
+      "imageId": "1593381725",
+      "numberOfMerchants": 74,
+      "rank": 6,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 14062,
+        "averageRating": "4.6"
+      }
+    },
+    {
+      "id": "3318777",
+      "name": "Apple iPhone 6S 32GB",
+      "description": "Apple iOS, 4.7\", Lanseringsår 2016, 12 Megapixlar, 143g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3318777/Mobiltelefoner/Apple-iPhone-6S-32GB-priser",
+      "cheapestPrice": {
+        "amount": "3490.00",
+        "currency": "SEK"
+      },
+      "imageId": "1599071093",
+      "numberOfMerchants": 50,
+      "rank": 7,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 10764,
+        "averageRating": "4.4"
+      }
+    },
+    {
+      "id": "4540096",
+      "name": "Huawei P20 Lite Dual SIM",
+      "description": "Android, 5.84\", Lanseringsår 2018, 16 Megapixlar, 145g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4540096/Mobiltelefoner/Huawei-P20-Lite-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "2290.00",
+        "currency": "SEK"
+      },
+      "imageId": "1817930758",
+      "numberOfMerchants": 47,
+      "rank": 8,
+      "brand": {
+        "name": "Huawei",
+        "id": 17349
+      },
+      "rating": {
+        "numberOfRatings": 1650,
+        "averageRating": "4.5"
+      }
+    },
+    {
+      "id": "3141553",
+      "name": "Samsung Galaxy S7 32GB",
+      "description": "Android, 5.1\", IP 68 Vattentät mobil, Lanseringsår 2016, 12 Megapixlar, 152g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, DLNA, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3141553/Mobiltelefoner/Samsung-Galaxy-S7-32GB-priser",
+      "cheapestPrice": {
+        "amount": "2799.00",
+        "currency": "SEK"
+      },
+      "imageId": "1554174288",
+      "numberOfMerchants": 53,
+      "rank": 9,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 25729,
+        "averageRating": "4.5"
+      }
+    },
+    {
+      "id": "4579053",
+      "name": "OnePlus 6 128GB Dual SIM",
+      "description": "Android, 6.28\", Lanseringsår 2018, 16 Megapixlar, 177g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, DLNA, 2G, Dual SIM",
+      "url": "/pl/1-4579053/Mobiltelefoner/OnePlus-6-128GB-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "3973.86",
+        "currency": "SEK"
+      },
+      "imageId": "1837542808",
+      "numberOfMerchants": 21,
+      "rank": 10,
+      "brand": {
+        "name": "OnePlus",
+        "id": 156556
+      },
+      "rating": {
+        "numberOfRatings": 1086,
+        "averageRating": "4.8"
+      }
+    },
+    {
+      "id": "4660705",
+      "name": "Samsung Galaxy Note 9 128GB Dual SIM",
+      "description": "Android, 6.4\", IP 68 Vattentät mobil, Lanseringsår 2018, 12 Megapixlar, 201g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4660705/Mobiltelefoner/Samsung-Galaxy-Note-9-128GB-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "8164.00",
+        "currency": "SEK"
+      },
+      "imageId": "1858848693",
+      "numberOfMerchants": 41,
+      "rank": 11,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 333,
+        "averageRating": "4.7"
+      }
+    },
+    {
+      "id": "3816386",
+      "name": "Apple iPhone 8 Plus 64GB",
+      "description": "Apple iOS, 5.5\", IP 67 Vattentålig mobil, Lanseringsår 2017, 12 Megapixlar, 202g, 4G LTE, 3G, HSPA, EDGE, GPRS, NFC, Bluetooth, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3816386/Mobiltelefoner/Apple-iPhone-8-Plus-64GB-priser",
+      "cheapestPrice": {
+        "amount": "7690.00",
+        "currency": "SEK"
+      },
+      "imageId": "1762108439",
+      "numberOfMerchants": 63,
+      "rank": 12,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 3984,
+        "averageRating": "4.7"
+      }
+    },
+    {
+      "id": "4502230",
+      "name": "Samsung Galaxy S9+ 64GB",
+      "description": "Android, 6.2\", IP 68 Vattentät mobil, Lanseringsår 2018, 12 Megapixlar, 4G LTE, 3G, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4502230/Mobiltelefoner/Samsung-Galaxy-S9-64GB-priser",
+      "cheapestPrice": {
+        "amount": "6382.11",
+        "currency": "SEK"
+      },
+      "imageId": "1802434133",
+      "numberOfMerchants": 67,
+      "rank": 13,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 1860,
+        "averageRating": "4.6"
+      }
+    },
+    {
+      "id": "3098945",
+      "name": "Apple iPhone 6S Plus 64GB",
+      "description": "Apple iOS, 5.5\", Lanseringsår 2015, 12 Megapixlar, 192g, 4G LTE, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3098945/Mobiltelefoner/Apple-iPhone-6S-Plus-64GB-priser",
+      "cheapestPrice": {
+        "amount": "3000.00",
+        "currency": "SEK"
+      },
+      "imageId": "1567788451",
+      "numberOfMerchants": 7,
+      "rank": 14,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 3955,
+        "averageRating": "4.5"
+      }
+    },
+    {
+      "id": "4435460",
+      "name": "Samsung Galaxy A8 SM-A530 32GB Dual SIM",
+      "description": "Android, 5.6\", IP 68 Vattentät mobil, Lanseringsår 2018, 16 Megapixlar, 172g, 4G LTE, 3G, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4435460/Mobiltelefoner/Samsung-Galaxy-A8-SM-A530-32GB-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "1149.00",
+        "currency": "SEK"
+      },
+      "imageId": "1757202349",
+      "numberOfMerchants": 41,
+      "rank": 15,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 784,
+        "averageRating": "4.3"
+      }
+    },
+    {
+      "id": "4540909",
+      "name": "Huawei P20 Pro Dual SIM",
+      "description": "Android, 6.1\", IP 67 Vattentålig mobil, Lanseringsår 2018, 40 Megapixlar, 180g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, IR, 2G, Dual SIM",
+      "url": "/pl/1-4540909/Mobiltelefoner/Huawei-P20-Pro-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "5490.00",
+        "currency": "SEK"
+      },
+      "imageId": "1818097823",
+      "numberOfMerchants": 46,
+      "rank": 16,
+      "brand": {
+        "name": "Huawei",
+        "id": 17349
+      },
+      "rating": {
+        "numberOfRatings": 1821,
+        "averageRating": "4.7"
+      }
+    },
+    {
+      "id": "4676647",
+      "name": "Apple iPhone XS 64GB",
+      "description": "Apple iOS, 5.8\", IP 68 Vattentät mobil, Lanseringsår 2018, 12 Megapixlar, 177g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, IR, 2G, VoLTE, DC-HSPA, HSPA+, Dual SIM",
+      "url": "/pl/1-4676647/Mobiltelefoner/Apple-iPhone-XS-64GB-priser",
+      "cheapestPrice": {
+        "amount": "11257.00",
+        "currency": "SEK"
+      },
+      "imageId": "1860703537",
+      "numberOfMerchants": 54,
+      "rank": 17,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 7,
+        "averageRating": "4.9"
+      }
+    },
+    {
+      "id": "3968527",
+      "name": "Apple iPhone 6 32GB",
+      "description": "Apple iOS, 4.7\", Lanseringsår 2014, 8 Megapixlar, 129g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, DC-HSPA, HSPA+",
+      "url": "/pl/1-3968527/Mobiltelefoner/Apple-iPhone-6-32GB-priser",
+      "cheapestPrice": {
+        "amount": "3454.00",
+        "currency": "SEK"
+      },
+      "imageId": "1674269373",
+      "numberOfMerchants": 29,
+      "rank": 18,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 14043,
+        "averageRating": "4.0"
+      }
+    },
+    {
+      "id": "4689772",
+      "name": "Xiaomi Pocophone F1 128GB Dual SIM",
+      "description": "Android, 6.18\", Lanseringsår 2018, 12 Megapixlar, 182g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, Bluetooth, DLNA, IR, 2G, Dual SIM",
+      "url": "/pl/1-4689772/Mobiltelefoner/Xiaomi-Pocophone-F1-128GB-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "2488.00",
+        "currency": "SEK"
+      },
+      "imageId": "1860485059",
+      "numberOfMerchants": 22,
+      "rank": 19,
+      "brand": {
+        "name": "Xiaomi",
+        "id": 156555
+      },
+      "rating": {
+        "numberOfRatings": 88,
+        "averageRating": "4.8"
+      }
+    },
+    {
+      "id": "4676650",
+      "name": "Apple iPhone XR 64GB",
+      "description": "Apple iOS, 6.1\", IP 67 Vattentålig mobil, Lanseringsår 2018, 12 Megapixlar, 194g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, IR, 2G, VoLTE, DC-HSPA, HSPA+, Dual SIM",
+      "url": "/pl/1-4676650/Mobiltelefoner/Apple-iPhone-XR-64GB-priser",
+      "cheapestPrice": {
+        "amount": "8480.00",
+        "currency": "SEK"
+      },
+      "imageId": "1860704708",
+      "numberOfMerchants": 45,
+      "rank": 20,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 2,
+        "averageRating": "5.0"
+      }
+    },
+    {
+      "id": "4540601",
+      "name": "Huawei P20",
+      "description": "Android, 5.8\", Lanseringsår 2018, 12 Megapixlar, 165g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, IR, 2G",
+      "url": "/pl/1-4540601/Mobiltelefoner/Huawei-P20-priser",
+      "cheapestPrice": {
+        "amount": "5528.00",
+        "currency": "SEK"
+      },
+      "imageId": "1829099607",
+      "numberOfMerchants": 10,
+      "rank": 21,
+      "brand": {
+        "name": "Huawei",
+        "id": 17349
+      },
+      "rating": {
+        "numberOfRatings": 1054,
+        "averageRating": "4.7"
+      }
+    },
+    {
+      "id": "4672970",
+      "name": "Apple iPhone XS Max 64GB",
+      "description": "Apple iOS, 6.5\", IP 68 Vattentät mobil, Lanseringsår 2018, 12 Megapixlar, 208g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, IR, 2G, VoLTE, DC-HSPA, HSPA+, Dual SIM",
+      "url": "/pl/1-4672970/Mobiltelefoner/Apple-iPhone-XS-Max-64GB-priser",
+      "cheapestPrice": {
+        "amount": "12361.00",
+        "currency": "SEK"
+      },
+      "imageId": "1860176374",
+      "numberOfMerchants": 51,
+      "rank": 22,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 10,
+        "averageRating": "4.8"
+      }
+    },
+    {
+      "id": "4713232",
+      "name": "Huawei Mate 20 Pro 128GB Dual SIM",
+      "description": "Android, 6.39\", IP 68 Vattentät mobil, Lanseringsår 2018, 40 Megapixlar, 189g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, IR, 2G, Dual SIM",
+      "url": "/pl/1-4713232/Mobiltelefoner/Huawei-Mate-20-Pro-128GB-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "9985.00",
+        "currency": "SEK"
+      },
+      "imageId": "1868824238",
+      "numberOfMerchants": 33,
+      "rank": 23,
+      "brand": {
+        "name": "Huawei",
+        "id": 17349
+      },
+      "rating": {
+        "numberOfRatings": 9,
+        "averageRating": "5.0"
+      }
+    },
+    {
+      "id": "4587126",
+      "name": "Samsung Galaxy J6 Dual SIM",
+      "description": "Android, 5.6\", Lanseringsår 2018, 13 Megapixlar, 154g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4587126/Mobiltelefoner/Samsung-Galaxy-J6-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "1688.09",
+        "currency": "SEK"
+      },
+      "imageId": "1842695231",
+      "numberOfMerchants": 41,
+      "rank": 24,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 194,
+        "averageRating": "4.6"
+      }
+    },
+    {
+      "id": "3310060",
+      "name": "Apple iPhone 7 Plus 32GB",
+      "description": "Apple iOS, 5.5\", IP 67 Vattentålig mobil, Lanseringsår 2016, 12 Megapixlar, 188g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, VoLTE, DC-HSPA, HSPA+",
+      "url": "/pl/1-3310060/Mobiltelefoner/Apple-iPhone-7-Plus-32GB-priser",
+      "cheapestPrice": {
+        "amount": "5103.48",
+        "currency": "SEK"
+      },
+      "imageId": "1593386871",
+      "numberOfMerchants": 49,
+      "rank": 25,
+      "brand": {
+        "name": "Apple",
+        "id": 162
+      },
+      "rating": {
+        "numberOfRatings": 7171,
+        "averageRating": "4.7"
+      }
+    },
+    {
+      "id": "3816275",
+      "name": "Samsung Galaxy S8+ 64GB",
+      "description": "Android, 6.2\", IP 68 Vattentät mobil, Lanseringsår 2017, 12 Megapixlar, 173g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, VoLTE",
+      "url": "/pl/1-3816275/Mobiltelefoner/Samsung-Galaxy-S8-64GB-priser",
+      "cheapestPrice": {
+        "amount": "4444.00",
+        "currency": "SEK"
+      },
+      "imageId": "1653696315",
+      "numberOfMerchants": 60,
+      "rank": 26,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 6662,
+        "averageRating": "4.5"
+      }
+    },
+    {
+      "id": "4683802",
+      "name": "Huawei Mate 20 Lite Dual SIM",
+      "description": "Android, 6.3\", Lanseringsår 2018, 20 Megapixlar, 172g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4683802/Mobiltelefoner/Huawei-Mate-20-Lite-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "3277.47",
+        "currency": "SEK"
+      },
+      "imageId": "1860090257",
+      "numberOfMerchants": 40,
+      "rank": 27,
+      "brand": {
+        "name": "Huawei",
+        "id": 17349
+      },
+      "rating": {
+        "numberOfRatings": 94,
+        "averageRating": "4.7"
+      }
+    },
+    {
+      "id": "4492471",
+      "name": "Huawei Honor 9 Lite 32GB Dual SIM",
+      "description": "Android, 5.65\", Lanseringsår 2017, 13 Megapixlar, 149g, 4G LTE, 3G, EDGE, GPRS, Wi-Fi, NFC, Bluetooth, 2G, Dual SIM",
+      "url": "/pl/1-4492471/Mobiltelefoner/Huawei-Honor-9-Lite-32GB-Dual-SIM-priser",
+      "cheapestPrice": {
+        "amount": "1749.86",
+        "currency": "SEK"
+      },
+      "imageId": "1789541956",
+      "numberOfMerchants": 16,
+      "rank": 28,
+      "brand": {
+        "name": "Huawei",
+        "id": 17349
+      },
+      "rating": {
+        "numberOfRatings": 1966,
+        "averageRating": "4.6"
+      }
+    },
+    {
+      "id": "4242878",
+      "name": "Sony Xperia XZ1 Compact",
+      "description": "Android, 4.6\", IP 68 Vattentät mobil, Lanseringsår 2017, 19 Megapixlar, 143g, 4G LTE, 3G, EDGE, GPRS, Wi-Fi, Miracast, NFC, Bluetooth, DLNA, 2G, VoLTE, HSPA+",
+      "url": "/pl/1-4242878/Mobiltelefoner/Sony-Xperia-XZ1-Compact-priser",
+      "cheapestPrice": {
+        "amount": "2990.00",
+        "currency": "SEK"
+      },
+      "imageId": "1724065463",
+      "numberOfMerchants": 32,
+      "rank": 29,
+      "brand": {
+        "name": "Sony",
+        "id": 25
+      },
+      "rating": {
+        "numberOfRatings": 756,
+        "averageRating": "4.4"
+      }
+    },
+    {
+      "id": "4521421",
+      "name": "Samsung Galaxy S9+ 256GB",
+      "description": "Android, 6.2\", IP 68 Vattentät mobil, Lanseringsår 2018, 12 Megapixlar, 189g, 4G LTE, 3G, HSPA, EDGE, GPRS, Wi-Fi, Miracast, NFC, Bluetooth, DLNA, 2G, VoLTE, HSPA+, Dual SIM",
+      "url": "/pl/1-4521421/Mobiltelefoner/Samsung-Galaxy-S9-256GB-priser",
+      "cheapestPrice": {
+        "amount": "7618.40",
+        "currency": "SEK"
+      },
+      "imageId": "1814474220",
+      "numberOfMerchants": 31,
+      "rank": 30,
+      "brand": {
+        "name": "Samsung",
+        "id": 22
+      },
+      "rating": {
+        "numberOfRatings": 1858,
+        "averageRating": "4.6"
+      }
+    }
+  ],
+  "category": {
+    "categoryId": "1",
+    "name": "Mobiltelefoner"
+  }
+}
