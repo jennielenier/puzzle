@@ -1,18 +1,16 @@
 import React from 'react';
-import Category from '../category/Category';
+import Puzzle from '../puzzle/puzzle';
+
 import './Root.scss';
 
 export default function App() {
   return (
-    <div>
-      <header className="header">
-        <strong className="header__app">App</strong>
-      </header>
+    <React.Fragment>
       <div className="_container">
         <div className="content">
-          <Category />
+          <Puzzle boardWidth={4} boardHeight={4} />
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
