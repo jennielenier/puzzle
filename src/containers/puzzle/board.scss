@@ -1,0 +1,24 @@
+.modal-backdrop.show {
+    opacity: .8 !important;
+  }
+  .victoryModalDialog {
+    .modal-content {
+      background-color: transparent !important;
+      border: none;
+      .modal-header {
+          border-bottom: none;
+          .close {
+              font-size: 5rem;
+              color: #fff;
+          }
+      }
+    }
+  }
+  .victoryModalBody {
+    padding: 0;
+    .imageWrap {
+      img {
+        max-width: 100%;
+      }
+    }
+  }

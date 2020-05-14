@@ -1,5 +1,7 @@
 import React from 'react';
 import Puzzle from '../puzzle/puzzle';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import './Root.scss';
 

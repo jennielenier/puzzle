@@ -31,7 +31,6 @@ export const Numbers = (arr, boardWidth, boardHeight) => {
             if(board[i] === getClickAbleNumber(x).up) up = i
             if(board[i] === getClickAbleNumber(x).down) down = i
         }
-
         setMoveIdx({left: left, right: right, up: up, down: down})
         setEmptyIdx(emptyPos)
         setNums(board)
