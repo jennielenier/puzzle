@@ -1,14 +1,13 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useState} from 'react';
 import {BoxStyled, BoardStyled, ButtonWrapStyled} from './boardStyled';
 import PropTypes from 'prop-types';
 import {Numbers} from './numbers';
 import Modal from "react-bootstrap/Modal";
 import popupImage from '../../assets/congrats.gif';
+import FlipMove from 'react-flip-move';
 
 import './board.scss';
 
-
-const arrSolved = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
 const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
   const styleContent = {
     display: 'flex',
@@ -17,25 +16,15 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
     justifyContent: 'center',
     height: '100%'
   }
-  const styleButton = {
-    margin: '20px',
-    padding: '1em 2em',
-    cursor: 'pointer',
-    backgroundColor: 'white',
-    border: '1px solid #000'
-  }
-  const refBox = useRef()
+
   const [width, setWidth] = useState(null);
   const [create, setCreate] = useState(createNums)
   const [show, setShow] = useState(false);
-  const [hide, setHide] = useState(false);
   const [clickSolved, setClickSolved] = useState(false);
 
   const handleClose = () => {
     setShow(false);
-    setHide(true)
   }
-
   const frameWidth = 100*boardWidth+'px';
   const numbers = Numbers(create, boardWidth, boardHeight)
   const moveIdx = numbers.moveIdx
@@ -43,43 +32,28 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
 
   // Responsive board
   useEffect(() => {
-    setWidth(refBox.current && refBox.current.offsetWidth)
+    const boxEl = document.getElementsByClassName('box')
+    setWidth(boxEl[0] && boxEl[0].offsetWidth)
     let timeoutId = null;
     const resizeListener = () => {
-      // prevent execution of previous setTimeout
       clearTimeout(timeoutId);
-      // change width from the state object after 150 milliseconds
       timeoutId = setTimeout(() => {
-        const widthEl = refBox.current && refBox.current.offsetWidth
+        const widthEl = boxEl[0] && boxEl[0].offsetWidth
         setWidth(widthEl)
       }, 150);
     };
-    // set resize listener
     window.addEventListener('resize', resizeListener);
     return () => {
       window.removeEventListener('resize', resizeListener);
     }
   }, [width]);
 
-  useEffect(() => {
-    if(numbers.nums) {
-      const boxes = numbers.nums
-      equalTwoArr(boxes, solvedNums(sortedNums))
-      // const isSolved = equalTwoArr(boxes, solvedNums(sortedNums))
-      // if(isSolved && !hide) {
-      //   setTimeout(() => {
-      //     setShow(true)
-      //   }, 2000)
-      // }
-    }
-  }, [numbers, show]);
-
-  const equalTwoArr = (array1, array2) => {
-    return array1.length === array2.length &&
-    array1.every((value, index) => {
-        return value === array2[index]
-      })
-  }
+  // const equalTwoArr = (array1, array2) => {
+  //   return array1.length === array2.length &&
+  //   array1.every((value, index) => {
+  //       return value === array2[index]
+  //     })
+  // }
   const swap = (arr, posMove, emptyPos) => {
     const blockSwap = arr, x = posMove, y = emptyPos;
     blockSwap[x] = blockSwap.splice(y, 1, blockSwap[x])[0];
@@ -96,7 +70,6 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
     }else if(idx === moveIdx.down) {
       pos = moveIdx.down
     }
-    console.log('clickSolved', clickSolved)
     if(pos != undefined && !clickSolved) {
       swap(arr, pos, emptyIdx)
     }
@@ -127,37 +100,37 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
     return <div>Loading...</div>
   }
   const boxes = numbers.nums
-
   const renderBlock = () => {
-    return boxes.map((box, idx) => {
-      const classEmpty = box === 0 ? `empty` : ``
-      const boxNumber = box != 0 ? box : null
-      const widthEachBox = (100/boardWidth)+'%';
-      const animate = clickSolved ? 'animate' : '';
-        return <BoxStyled key={idx}
-          className={`${classEmpty} ${animate}`}
-          widthEachBox={widthEachBox}
-          clickSolved={clickSolved}
-          ref={refBox}
-          height={width+'px'}
-          onClick={handleClick.bind(this, boxes, moveIdx, emptyIdx, idx)}
-          >
-          <div className="inner">{boxNumber}</div>
-        </BoxStyled>
-    })
+    return (
+      <FlipMove typeName={null} enterAnimation="accordionHorizontal" leaveAnimation="accordionHorizontal">{
+        boxes.map((box, idx) => {
+          const classEmpty = box === 0 ? `empty` : ``
+          const widthEachBox = (100/boardWidth)+'%';
+          const animate = clickSolved ? 'animate' : '';
+            return <BoxStyled key={'box'+box}
+              className={`${classEmpty} ${animate} box`}
+              widthEachBox={widthEachBox}
+              clickSolved={clickSolved}
+              height={width+'px'}
+              onClick={handleClick.bind(this, boxes, moveIdx, emptyIdx, idx)}
+              >
+              <div className="inner">{box}</div>
+            </BoxStyled>
+        })
+      }</FlipMove>
+    )
   }
 
   const renderResetButton = () => {
-    return <button className="reset" style={styleButton}
-              onClick={handleClickReset.bind(this, boxes)}>SLUMPA
+    return <button className="btn"
+              onClick={handleClickReset.bind(this, boxes)}>SHUFFLE
             </button>
   }
   const renderSolvedButton = () => {
-    return <button className="reset" style={styleButton}
-              onClick={handleClickSolved.bind(this, boxes)}>ORDNAD
+    return <button className="btn"
+              onClick={handleClickSolved.bind(this, boxes)}>SOLVED
             </button>
   }
-
   return (
     <div style={styleContent}>
       <BoardStyled
@@ -168,7 +141,6 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
         {renderResetButton()}
         {renderSolvedButton()}
       </ButtonWrapStyled>
-
       <Modal show={show} onHide={handleClose} centered className="victoryModalDialog" size="lg">
       <Modal.Header closeButton>
         </Modal.Header>
@@ -179,9 +151,6 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
         </div>
       </Modal.Body>
       </Modal>
-
-
-
     </div>
   );
 }

@@ -20,8 +20,6 @@ export const BoxStyled = styled.div`
   border-radius: 10px;
   box-sizing: border-box;
   cursor: pointer;
-  transition: transform 2s ease-in-out;
-
 
   &:hover {
     background-color: ${props => props.clickSolved ? '#6610f2' : '#a02ebd'};
@@ -63,5 +61,24 @@ export const BoxStyled = styled.div`
 
 export const ButtonWrapStyled = styled.div`
   display: flex;
+
+  @media ${device.mobile} {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .btn {
+    margin: 1rem;
+    padding: 1em 2em;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #000;
+
+    @media ${device.mobile} {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
 `;
 

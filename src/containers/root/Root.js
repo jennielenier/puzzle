@@ -2,7 +2,6 @@ import React from 'react';
 import Puzzle from '../puzzle/puzzle';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 import './Root.scss';
 
 export default function App() {
@@ -10,7 +9,7 @@ export default function App() {
     <React.Fragment>
       <div className="_container">
         <div className="content">
-          <Puzzle boardWidth={4} boardHeight={4} />
+          <Puzzle boardWidth={5} boardHeight={3} />
         </div>
       </div>
     </React.Fragment>
