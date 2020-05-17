@@ -117,7 +117,7 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
 
   const renderResetButton = () => {
     return <button className="btn"
-              onClick={handleClickReset.bind(this, boxes)}>SHUFFLE
+              onClick={handleClickReset.bind(this, boxes)}>NEW GAME
             </button>
   }
   const renderSolvedButton = () => {
