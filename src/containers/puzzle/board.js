@@ -48,12 +48,6 @@ const Board = ({createNums, boardWidth, boardHeight, sortedNums}) => {
     }
   }, [width]);
 
-  // const equalTwoArr = (array1, array2) => {
-  //   return array1.length === array2.length &&
-  //   array1.every((value, index) => {
-  //       return value === array2[index]
-  //     })
-  // }
   const swap = (arr, posMove, emptyPos) => {
     const blockSwap = arr, x = posMove, y = emptyPos;
     blockSwap[x] = blockSwap.splice(y, 1, blockSwap[x])[0];
